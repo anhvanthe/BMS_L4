@@ -11,6 +11,15 @@ TIM_HandleTypeDef htim1;
 UART_HandleTypeDef huart2;
 
 
+#ifdef __GNUC__
+/* With GCC, small printf (option LD Linker->Libraries->Small printf
+   set to 'Yes') calls __io_putchar() */
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
+void SystemClock_Config(void);
+static void Error_Handler(void);
 
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
@@ -27,11 +36,11 @@ void LED_BLink(void);
 void i2c_scanner(void);
 
 /* UART-to-USB debug output */
-void printDebug(char *buf)
+/*void printDebug(char *buf)
 {
   HAL_UART_Transmit(&huart2, (uint8_t *) buf, strlen(buf), HAL_MAX_DELAY);
 }
-
+*/
 
 /****************** MAIN **********************/
 
@@ -54,8 +63,10 @@ int main(void)
   HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
   HAL_Delay(100);
 
-  printDebug("STM32L4 Started !!.\r\n");
-	printDebug("Console is ready to use......\r\n");
+  //printDebug("STM32L4 Started !!.\r\n");
+  printf("STM32L4 Started !!.\r\n");
+	//printDebug("Console is ready to use......\r\n");
+  printf("Console is ready to use......\r\n");
 
   while (1)
   {
@@ -66,6 +77,21 @@ int main(void)
   }
 
 }
+
+
+/**
+  * @brief  Retargets the C library printf function to the USART.
+  * @param  None
+  * @retval None
+  */
+PUTCHAR_PROTOTYPE
+{
+  /* Place your implementation of fputc here */
+  /* e.g. write a character to the USART1 and Loop until the end of transmission */
+  HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0xFFFF);
+  return ch;
+}
+
 
 /**
   * @brief System Clock Configuration
@@ -376,21 +402,16 @@ void i2c_scanner(void)
 	
   uint8_t i = 0;
   uint8_t devices = 0;
-  printDebug("Start scanning.........\n\r");
+  printf("\r\nStart scanning.........\n\r");
 
   for (i = 1; i < 127; i++)
   {
     i2c_addr = i << 1;
-    // HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-    // HAL_I2C_Master_Transmit(&hi2c1, i2c_addr, data_io, 1, 100);
-    // if (HAL_OK == HAL_I2C_IsDeviceReady(&hi2c1, i2c_addr, 3u, 10u))
     if (HAL_OK == HAL_I2C_IsDeviceReady(&hi2c1, i2c_addr, 1,100u) )
     {
-      //printf("Device found: 0x%02X\n", i2c_addr);
-      //printDebug("Device found: ....\n\r");
-			printDebug("Device found: ....\n\r");
-
-			printDebug(&i2c_addr);
+			//printDebug("Device found: ....\n\r");
+      printf("Device found: 0x%02X\n\r", i2c_addr);
+			//printDebug(&i2c_addr);
       devices++;
     }
   }
@@ -398,12 +419,11 @@ void i2c_scanner(void)
   /* Feedback of the total number of devices. */
   if (0u == devices)
   {
-    printDebug("No device found.\n\r");
+    printf("No device found.\n\r");
   }
   else
   {
-    printDebug("Total found devices: \n\r");
-		printDebug(&devices);
+    printf("Total found devices: %d\n\r", devices);
   }
 }
 
