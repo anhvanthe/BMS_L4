@@ -1,7 +1,7 @@
 #include "main.h"
 
-#include "stdio.h"
-#include "string.h"
+#include <stdio.h>
+#include <string.h>
 
 I2C_HandleTypeDef hi2c1;
 I2C_HandleTypeDef hi2c2;
@@ -19,11 +19,21 @@ static void MX_I2C2_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_TIM1_Init(void);
 
+// A simple atoi() function 
+uint16_t myAtoi(char* str);
+
+void LED_BLink(void);
+
+void i2c_scanner(void);
+
 /* UART-to-USB debug output */
-void printDebug(char *buf) {
+void printDebug(char *buf)
+{
   HAL_UART_Transmit(&huart2, (uint8_t *) buf, strlen(buf), HAL_MAX_DELAY);
 }
 
+
+/****************** MAIN **********************/
 
 int main(void)
 {
@@ -49,12 +59,10 @@ int main(void)
 
   while (1)
   {
-    HAL_GPIO_TogglePin(LED_R_GPIO_Port, LED_R_Pin);
+    LED_BLink();
+    i2c_scanner();
+    HAL_Delay(1000u);
 
-    HAL_Delay(200);
-    HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
-
-    HAL_Delay(200);
   }
 
 }
@@ -339,6 +347,65 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+uint16_t myAtoi(char* str) 
+{ 
+    int res = 0; // Initialize result 
+  
+    // Iterate through all characters of input string and 
+    // update result 
+    for (int i = 0; str[i] != '\0'; ++i) 
+        res = res * 10 + str[i] - '0'; 
+  
+    // return result. 
+    return res; 
+}
+
+void LED_BLink(void)
+{
+    HAL_GPIO_TogglePin(LED_R_GPIO_Port, LED_R_Pin);
+
+    HAL_Delay(200);
+    HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
+
+    HAL_Delay(200);
+}
+
+void i2c_scanner(void)
+{
+  uint8_t i2c_addr = 0;
+	
+  uint8_t i = 0;
+  uint8_t devices = 0;
+  printDebug("Start scanning.........\n\r");
+
+  for (i = 1; i < 127; i++)
+  {
+    i2c_addr = i << 1;
+    // HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+    // HAL_I2C_Master_Transmit(&hi2c1, i2c_addr, data_io, 1, 100);
+    // if (HAL_OK == HAL_I2C_IsDeviceReady(&hi2c1, i2c_addr, 3u, 10u))
+    if (HAL_OK == HAL_I2C_IsDeviceReady(&hi2c1, i2c_addr, 1,100u) )
+    {
+      //printf("Device found: 0x%02X\n", i2c_addr);
+      //printDebug("Device found: ....\n\r");
+			printDebug("Device found: ....\n\r");
+
+			printDebug(&i2c_addr);
+      devices++;
+    }
+  }
+
+  /* Feedback of the total number of devices. */
+  if (0u == devices)
+  {
+    printDebug("No device found.\n\r");
+  }
+  else
+  {
+    printDebug("Total found devices: \n\r");
+		printDebug(&devices);
+  }
+}
 
 /* USER CODE END 4 */
 
