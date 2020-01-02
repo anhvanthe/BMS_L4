@@ -81,6 +81,14 @@ int main(void)
   while (1)
   {
     LED_BLink();
+    i2c_scanner();
+
+    /* BQ27542-G1
+    Addr 7 bit: 0x55
+    Addr 8 bit 0xAA (Write) and 0xAB (Read)
+    */
+
+    /*
     if(i2c_scanner() != 0)
     {
       bq2589x_write(BQ25892_REG_07, 0x8D);
@@ -95,6 +103,7 @@ int main(void)
         HAL_Delay(10u);
       }
     }
+    */
     
     HAL_Delay(1000u);
 
