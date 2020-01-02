@@ -1,7 +1,9 @@
 #include "main.h"
-
+#include "bq25892.h"
 #include <stdio.h>
 #include <string.h>
+
+//HAL_StatusTypeDef check = HAL_OK;
 
 I2C_HandleTypeDef hi2c1;
 I2C_HandleTypeDef hi2c2;
@@ -10,6 +12,9 @@ TIM_HandleTypeDef htim1;
 
 UART_HandleTypeDef huart2;
 
+uint8_t dummy = 0;
+uint16_t t=0;
+//uint16_t dev_count=0;
 
 #ifdef __GNUC__
 /* With GCC, small printf (option LD Linker->Libraries->Small printf
@@ -33,7 +38,10 @@ uint16_t myAtoi(char* str);
 
 void LED_BLink(void);
 
-void i2c_scanner(void);
+uint16_t i2c_scanner(void);
+
+static int bq2589x_read(uint16_t Reg, uint8_t *pBuffer);
+static int bq2589x_write(uint16_t Reg, uint8_t val);
 
 /* UART-to-USB debug output */
 /*void printDebug(char *buf)
@@ -68,10 +76,26 @@ int main(void)
 	//printDebug("Console is ready to use......\r\n");
   printf("Console is ready to use......\r\n");
 
+  ///i2c_scanner();
+
   while (1)
   {
     LED_BLink();
-    i2c_scanner();
+    if(i2c_scanner() != 0)
+    {
+      bq2589x_write(BQ25892_REG_07, 0x8D);
+      bq2589x_write(BQ25892_REG_03, 0x3A);
+
+			
+      for (t = 0; t < 20; ++t)
+      {
+        bq2589x_read(t, &dummy);
+
+        printf("Dummy value of 0x%02X is 0x%02X\n\r", (uint8_t)t, dummy);
+        HAL_Delay(10u);
+      }
+    }
+    
     HAL_Delay(1000u);
 
   }
@@ -396,7 +420,7 @@ void LED_BLink(void)
     HAL_Delay(200);
 }
 
-void i2c_scanner(void)
+uint16_t i2c_scanner(void)
 {
   uint8_t i2c_addr = 0;
 	
@@ -425,7 +449,46 @@ void i2c_scanner(void)
   {
     printf("Total found devices: %d\n\r", devices);
   }
+
+  return devices;
 }
+
+
+
+static int bq2589x_read(uint16_t Reg, uint8_t *pBuffer)
+{
+  //HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+  HAL_StatusTypeDef status = HAL_OK;
+  //uint8_t value = 0x0;
+  //status = HAL_I2C_Mem_Read(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, &value, 1, 100);
+  status = HAL_I2C_Mem_Read(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, pBuffer, 1, 100);
+  /* Check the communication status */
+  if (status != HAL_OK)
+  {
+    /* Re-Initiaize the BUS */
+    //I2C1_Error();
+  }
+  return status;
+}
+
+
+static int bq2589x_write(uint16_t Reg, uint8_t val)
+{//if(HAL_I2C_IsDeviceReady(BMP280_I2C_handler,BMP280_IC2ADDRESS, 10, 100)==HAL_OK)
+  HAL_StatusTypeDef status = HAL_OK;
+  //if(HAL_I2C_IsDeviceReady(&hi2c1, (BQ25892_ADDR), 1,100u) == HAL_OK)
+  {
+    status = HAL_I2C_Mem_Write(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, &val, 1, 100);
+  }
+
+	/* Check the communication status */
+  if (status != HAL_OK)
+  {
+    /* Re-Initiaize the BUS */
+    //I2C1_Error();
+  }
+  return status;
+}
+
 
 /* USER CODE END 4 */
 
