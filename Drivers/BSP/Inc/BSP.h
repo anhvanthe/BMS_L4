@@ -48,3 +48,4 @@ void MX_TIM1_Init(void);
 
 uint16_t i2c_scanner(void);
 
+uint16_t transBytes2UnsignedInt(uint8_t msb, uint8_t lsb);

@@ -17,7 +17,7 @@
 #include "stm32l4xx_hal.h"
 #include "BSP.h"
 
-extern UART_HandleTypeDef huart1;
+//extern UART_HandleTypeDef huart1;
 
 I2C_HandleTypeDef hi2c1;
 I2C_HandleTypeDef hi2c2;
@@ -298,3 +298,10 @@ uint16_t i2c_scanner(void)
 }
 
 
+uint16_t transBytes2UnsignedInt(uint8_t msb, uint8_t lsb)
+{
+  uint16_t tmp;
+
+  tmp = ((msb << 8) & 0xFF00);
+  return ((uint16_t)(tmp + lsb) & 0x0000FFFF);
+}

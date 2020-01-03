@@ -1,9 +1,9 @@
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
 #include "BSP.h"
 #include "bq2589x.h"
 #include "bq27542.h"
-#include <stdio.h>
-#include <string.h>
 
 //HAL_StatusTypeDef check = HAL_OK;
 
@@ -14,35 +14,18 @@
 
 uint8_t dummy = 0;
 uint16_t t=0;
+uint16_t batVol=0;
+uint16_t batTemp=0;
 //uint16_t dev_count=0;
 
 
 void SystemClock_Config(void);
-//static void Error_Handler(void);
-
-//void SystemClock_Config(void);
-// static void MX_GPIO_Init(void);
-// static void MX_I2C1_Init(void);
-// static void MX_I2C2_Init(void);
-// static void MX_USART2_UART_Init(void);
-// static void MX_TIM1_Init(void);
 
 // A simple atoi() function 
 uint16_t myAtoi(char* str);
 
 void LED_BLink(void);
 
-//uint16_t i2c_scanner(void);
-
-//static int bq2589x_read(uint16_t Reg, uint8_t *pBuffer);
-//static int bq2589x_write(uint16_t Reg, uint8_t val);
-
-/* UART-to-USB debug output */
-/*void printDebug(char *buf)
-{
-  HAL_UART_Transmit(&huart2, (uint8_t *) buf, strlen(buf), HAL_MAX_DELAY);
-}
-*/
 
 /****************** MAIN **********************/
 
@@ -72,6 +55,7 @@ int main(void)
 
   ///i2c_scanner();
 
+
   while (1)
   {
     LED_BLink();
@@ -87,7 +71,8 @@ int main(void)
     {
       //bq2589x_write(BQ25892_REG_07, 0x8D);
       //bq2589x_write(BQ25892_REG_03, 0x3A);
-
+			bq2589x_write(BQ2589X_REG_CFG2, 0x3A);
+			bq2589x_write(BQ2589X_REG_TIMER, 0x8D);
 			
       for (t = 0; t < 20; ++t)
       {
@@ -96,6 +81,15 @@ int main(void)
         printf("Dummy value of 0x%02X is 0x%02X\n\r", (uint8_t)t, dummy);
         HAL_Delay(10u);
       }
+			
+			batVol = BQ27542_getVoltage();
+			printf("Voltage of BAT is %02i\n\r", batVol);
+
+      batTemp = BQ27542_getNomAvailableCapacity();
+      printf("Available Capacity of BAT is %02i\n\r", batTemp);
+
+      batTemp = BQ27542_getFullAvailableCapacity(); //mAh
+      printf("Full Available Capacity of BAT is %02i\n\r", batTemp);
     }
     
     
@@ -172,12 +166,6 @@ void SystemClock_Config(void)
   */
   HAL_RCCEx_EnableMSIPLLMode();
 }
-
-
-
-
-
-
 
 
 /* USER CODE BEGIN 4 */

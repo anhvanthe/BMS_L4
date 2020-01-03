@@ -1,7 +1,9 @@
-/*
- * bq27542.c
+ /* 
+ * File: "bq27542.c"
  * Desc: TI Fuel Gauge driver code
- */
+ * 
+ * TuongPV <phamtuongbk999@outlook.com>
+*/
 
 //Includes
 #include "stm32l4xx_hal.h"
@@ -10,6 +12,16 @@
 #include "BSP.h"
 
 extern I2C_HandleTypeDef hi2c1;
+uint8_t TxData[BUFFERSIZE];           // Stores data bytes to be TX'd
+uint8_t RxData[BUFFERSIZE];           // Stores data bytes that are RX'd
+uint16_t  temperature;                  // Stores temperature
+uint16_t  voltage;                      // Stores voltage
+  signed int  atrate;                       // Stores AtRate
+uint16_t  artte;                        // Stores AtRate Time to Empty
+uint16_t  soc;                          // Stores State of Charge
+uint16_t  dcap;                         // Stores Design Capacity
+uint16_t  dnamelen;                     // Stores Device Name Length
+
 
 void BQ27542_read(uint8_t cmd, uint16_t bytes)
 {
@@ -25,8 +37,9 @@ void BQ27542_read(uint8_t cmd, uint16_t bytes)
 
 }
 
-//uint16_t bq2589x_read(uint16_t Reg, uint8_t *pBuffer)
-//{
+
+// uint16_t bq2589x_read(uint16_t Reg, uint8_t *pBuffer)
+// {
 // HAL_StatusTypeDef status = HAL_OK;
 // //uint8_t value = 0x0;
 // //status = HAL_I2C_Mem_Read(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, &value, 1, 100);
@@ -38,7 +51,7 @@ void BQ27542_read(uint8_t cmd, uint16_t bytes)
 //   //I2C1_Error();
 // }
 // return status;
-//}
+// }
 
 
 void BQ27542_cmdWrite(uint8_t cmd, uint8_t data)
@@ -64,24 +77,24 @@ void BQ27542_error(void)
 	uint16_t error = 1;
 }
 
-// uint16_t BQ27542_getTemperature(void){
-// 	// Read Temperature (units = 0.1K)
-// 	BQ27542_read(bq27542CMD_TEMP_LSB, 2);
-// 	temperature = transBytes2UnsignedInt(RxData[1], RxData[0]);
-// 	return temperature;
-// }
-
-uint16_t BQ27542_getDeviceType(void){
-	// Read Device Type
-	TxData[0] = bq27542CMD_CNTL_LSB;
-	TxData[1] = bq27542CMD_CNTL_DTYPE_LSB;
-	TxData[2] = bq27542CMD_CNTL_DTYPE_MSB;
-	BQ27542_blockWrite(TxData, 3);
-	//wait_sec(0.01);
-	BQ27542_read(bq27542CMD_CNTL_LSB, 2);
-	uint16_t devType = transBytes2UnsignedInt(RxData[1], RxData[0]);
-	return devType;
+uint16_t BQ27542_getTemperature(void){
+	// Read Temperature (units = 0.1K)
+	BQ27542_read(bq27542CMD_TEMP_LSB, 2);
+	temperature = transBytes2UnsignedInt(RxData[1], RxData[0]);
+	return temperature;
 }
+
+// uint16_t BQ27542_getDeviceType(void){
+// 	// Read Device Type
+// 	TxData[0] = bq27542CMD_CNTL_LSB;
+// 	TxData[1] = bq27542CMD_CNTL_DTYPE_LSB;
+// 	TxData[2] = bq27542CMD_CNTL_DTYPE_MSB;
+// 	BQ27542_blockWrite(TxData, 3);
+// 	//wait_sec(0.01);
+// 	BQ27542_read(bq27542CMD_CNTL_LSB, 2);
+// 	uint16_t devType = transBytes2UnsignedInt(RxData[1], RxData[0]);
+// 	return devType;
+// }
 
 // uint16_t BQ27542_getUnfilteredSOC(void){
 // 	//units: %
@@ -100,22 +113,22 @@ uint16_t BQ27542_getVoltage(void){
 	return mV;
 }
 
-// uint16_t BQ27542_getNomAvailableCapacity(void){
-// 	//units: mAh
-// 	uint16_t nomCap;
+uint16_t BQ27542_getNomAvailableCapacity(void){
+	//units: mAh
+	uint16_t nomCap;
 
-// 	BQ27542_read(bq27542CMD_NAC_LSB, 2);
-// 	nomCap = transBytes2UnsignedInt(RxData[1], RxData[0]);
-// 	return nomCap;
-// }
+	BQ27542_read(bq27542CMD_NAC_LSB, 2);
+	nomCap = transBytes2UnsignedInt(RxData[1], RxData[0]);
+	return nomCap;
+}
 
-// uint16_t BQ27542_getFullAvailableCapacity(void){
-// 	//units: mAh
-// 	uint16_t fullCap;
-// 	BQ27542_read(bq27542CMD_FAC_LSB, 2);
-// 	fullCap = transBytes2UnsignedInt(RxData[1], RxData[0]);
-// 	return fullCap;
-// }
+uint16_t BQ27542_getFullAvailableCapacity(void){
+	//units: mAh
+	uint16_t fullCap;
+	BQ27542_read(bq27542CMD_FAC_LSB, 2);
+	fullCap = transBytes2UnsignedInt(RxData[1], RxData[0]);
+	return fullCap;
+}
 
 // uint16_t BQ27542_getRemainingCapacity(void){
 // 	//units: mAh

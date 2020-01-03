@@ -95,19 +95,19 @@ UINT8 DeviceID[DEVICEIDNUMBYTES];           // Stores the Device ID data
 UINT8 Digest[DIGESTNUMBYTES];               // SHA1 response from the bq27542
 */
 
-uint8_t TxData[BUFFERSIZE];           // Stores data bytes to be TX'd
-uint8_t RxData[BUFFERSIZE];           // Stores data bytes that are RX'd
-uint16_t  temperature;                  // Stores temperature
-uint16_t  voltage;                      // Stores voltage
-  signed int  atrate;                       // Stores AtRate
-uint16_t  artte;                        // Stores AtRate Time to Empty
-uint16_t  soc;                          // Stores State of Charge
-uint16_t  dcap;                         // Stores Design Capacity
-uint16_t  dnamelen;                     // Stores Device Name Length
+// uint8_t TxData[BUFFERSIZE];           // Stores data bytes to be TX'd
+//uint8_t RxData[BUFFERSIZE];           // Stores data bytes that are RX'd
+// uint16_t  temperature;                  // Stores temperature
+// uint16_t  voltage;                      // Stores voltage
+//   signed int  atrate;                       // Stores AtRate
+// uint16_t  artte;                        // Stores AtRate Time to Empty
+// uint16_t  soc;                          // Stores State of Charge
+// uint16_t  dcap;                         // Stores Design Capacity
+// uint16_t  dnamelen;                     // Stores Device Name Length
 
 
 //Function Declarations
-uint16_t transBytes2UnsignedInt(uint8_t msb, uint8_t lsb);
+//uint16_t transBytes2UnsignedInt(uint8_t msb, uint8_t lsb);
 void BQ27542_read(uint8_t cmd, uint16_t bytes);
 void BQ27542_cmdWrite(uint8_t cmd, uint8_t data);
 void BQ27542_blockWrite(uint8_t *buffer, uint16_t length);
@@ -119,11 +119,11 @@ void BQ27542_error(void);
 
 uint16_t BQ27542_getDeviceType(void); //0x0542 is the expected result
 
-// uint16_t BQ27542_getTemperature(void); //0.1 deg K
+uint16_t BQ27542_getTemperature(void); //0.1 deg K
 // uint16_t BQ27542_getUnfilteredSOC(void); //%
 uint16_t BQ27542_getVoltage(void); //mV
-// uint16_t BQ27542_getNomAvailableCapacity(void); //mAh
-// uint16_t BQ27542_getFullAvailableCapacity(void); //mAh
+uint16_t BQ27542_getNomAvailableCapacity(void); //mAh
+uint16_t BQ27542_getFullAvailableCapacity(void); //mAh
 // uint16_t BQ27542_getRemainingCapacity(void); //mAh
 // uint16_t BQ27542_getFullChargeCapacity(void); //mAh
 // uint16_t BQ27542_getAverageCurrent(void); //mA
