@@ -1,0 +1,37 @@
+/* 
+ * File: "BSP.h"
+ * Desc: Common define for BSP's function
+ * 
+ * TuongPV <phamtuongbk999@outlook.com>
+*/
+
+#define I2C_BUFFERSIZE             32           // # of bytes for Tx & Rx buffers
+
+#define LED_R_Pin GPIO_PIN_2
+#define LED_R_GPIO_Port GPIOB
+#define LED_G_Pin GPIO_PIN_8
+#define LED_G_GPIO_Port GPIOE
+#define MFX_I2C_SLC_Pin GPIO_PIN_10
+#define MFX_I2C_SLC_GPIO_Port GPIOB
+#define MFX_I2C_SDA_Pin GPIO_PIN_11
+#define MFX_I2C_SDA_GPIO_Port GPIOB
+#define SWDIO_Pin GPIO_PIN_13
+#define SWDIO_GPIO_Port GPIOA
+#define SWCLK_Pin GPIO_PIN_14
+#define SWCLK_GPIO_Port GPIOA
+#define USART_TX_Pin GPIO_PIN_5
+#define USART_TX_GPIO_Port GPIOD
+#define USART_RX_Pin GPIO_PIN_6
+#define USART_RX_GPIO_Port GPIOD
+#define I2C1_SCL_Pin GPIO_PIN_6
+#define I2C1_SCL_GPIO_Port GPIOB
+#define I2C1_SDA_Pin GPIO_PIN_7
+#define I2C1_SDA_GPIO_Port GPIOB
+
+static void MX_GPIO_Init(void);
+static void MX_I2C1_Init(void);
+static void MX_I2C2_Init(void);
+static void MX_USART2_UART_Init(void);
+static void MX_TIM1_Init(void);
+
+
