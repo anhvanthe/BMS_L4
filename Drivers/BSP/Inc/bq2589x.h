@@ -6,6 +6,11 @@
  */
 #ifndef __BQ2589X_H
 #define __BQ2589X_H
+
+#include <stdio.h>
+#include <stdarg.h>
+#include <stdint.h>
+
 /* Registers */
 #define BQ2589X_REG_INPUT_CURR      0x00
 #define BQ2589X_REG_VINDPM          0x01
@@ -80,20 +85,22 @@
 /* REG14: Device ID, reset and ICO status */
 #define BQ2589X_DEVICE_ID_MASK      0x38
 #define BQ25890_DEVICE_ID           0x18
-#define BQ25892_DEVICE_ID           0x00
+//#define BQ25892_DEVICE_ID           0x01
 #define BQ25895_DEVICE_ID           0x38
 #define BQ2589X_ID_ICO_OPTIMIZED    0x40
+// /* Variant-specific configuration */
+// #if defined(CONFIG_CHARGER_BQ25892)
+// #define BQ2589X_DEVICE_ID    BQ25892_DEVICE_ID
+// #define BQ2589X_ADDR_FLAGS          0x6B
+// #else
+// #error BQ2589X unknown variant
+// #endif
 /* Variant-specific configuration */
-#if   defined(CONFIG_CHARGER_BQ25890)
-#define BQ2589X_DEVICE_ID    BQ25890_DEVICE_ID
-#define BQ2589X_ADDR_FLAGS          0x6A
-#elif defined(CONFIG_CHARGER_BQ25895)
-#define BQ2589X_DEVICE_ID    BQ25895_DEVICE_ID
-#define BQ2589X_ADDR_FLAGS          0x6A
-#elif defined(CONFIG_CHARGER_BQ25892)
-#define BQ2589X_DEVICE_ID    BQ25892_DEVICE_ID
-#define BQ2589X_ADDR_FLAGS          0x6B
-#else
-#error BQ2589X unknown variant
-#endif
+#define BQ25892_ADDR			   0x6B
+#define BQ25892_DEVICE_ID          BQ25892_ADDR
+
+
+uint16_t bq2589x_read(uint16_t Reg, uint8_t *pBuffer);
+uint16_t bq2589x_write(uint16_t Reg, uint8_t val);
+
 #endif /* __CROS_EC_BQ2589X_H */

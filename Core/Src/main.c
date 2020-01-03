@@ -1,7 +1,7 @@
 #include "main.h"
 #include "BSP.h"
-//#include "bq25892.h"
-//#include "bq27542.h"
+#include "bq2589x.h"
+#include "bq27542.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -16,29 +16,23 @@ uint8_t dummy = 0;
 uint16_t t=0;
 //uint16_t dev_count=0;
 
-#ifdef __GNUC__
-/* With GCC, small printf (option LD Linker->Libraries->Small printf
-   set to 'Yes') calls __io_putchar() */
-#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
-#else
-#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
-#endif /* __GNUC__ */
-void SystemClock_Config(void);
-static void Error_Handler(void);
 
 void SystemClock_Config(void);
-static void MX_GPIO_Init(void);
-static void MX_I2C1_Init(void);
-static void MX_I2C2_Init(void);
-static void MX_USART2_UART_Init(void);
-static void MX_TIM1_Init(void);
+//static void Error_Handler(void);
+
+//void SystemClock_Config(void);
+// static void MX_GPIO_Init(void);
+// static void MX_I2C1_Init(void);
+// static void MX_I2C2_Init(void);
+// static void MX_USART2_UART_Init(void);
+// static void MX_TIM1_Init(void);
 
 // A simple atoi() function 
 uint16_t myAtoi(char* str);
 
 void LED_BLink(void);
 
-uint16_t i2c_scanner(void);
+//uint16_t i2c_scanner(void);
 
 //static int bq2589x_read(uint16_t Reg, uint8_t *pBuffer);
 //static int bq2589x_write(uint16_t Reg, uint8_t val);
@@ -81,18 +75,18 @@ int main(void)
   while (1)
   {
     LED_BLink();
-    i2c_scanner();
+    //i2c_scanner();
 
     /* BQ27542-G1
     Addr 7 bit: 0x55
     Addr 8 bit 0xAA (Write) and 0xAB (Read)
     */
 
-    /*
+    
     if(i2c_scanner() != 0)
     {
-      bq2589x_write(BQ25892_REG_07, 0x8D);
-      bq2589x_write(BQ25892_REG_03, 0x3A);
+      //bq2589x_write(BQ25892_REG_07, 0x8D);
+      //bq2589x_write(BQ25892_REG_03, 0x3A);
 
 			
       for (t = 0; t < 20; ++t)
@@ -103,7 +97,7 @@ int main(void)
         HAL_Delay(10u);
       }
     }
-    */
+    
     
     HAL_Delay(1000u);
 
@@ -112,18 +106,6 @@ int main(void)
 }
 
 
-/**
-  * @brief  Retargets the C library printf function to the USART.
-  * @param  None
-  * @retval None
-  */
-PUTCHAR_PROTOTYPE
-{
-  /* Place your implementation of fputc here */
-  /* e.g. write a character to the USART1 and Loop until the end of transmission */
-  HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0xFFFF);
-  return ch;
-}
 
 
 /**
@@ -223,74 +205,10 @@ void LED_BLink(void)
     HAL_Delay(200);
 }
 
-uint16_t i2c_scanner(void)
-{
-  uint8_t i2c_addr = 0;
-	
-  uint8_t i = 0;
-  uint8_t devices = 0;
-  printf("\r\nStart scanning.........\n\r");
-
-  for (i = 1; i < 127; i++)
-  {
-    i2c_addr = i << 1;
-    if (HAL_OK == HAL_I2C_IsDeviceReady(&hi2c1, i2c_addr, 1,100u) )
-    {
-			//printDebug("Device found: ....\n\r");
-      printf("Device found: 0x%02X\n\r", i2c_addr);
-			//printDebug(&i2c_addr);
-      devices++;
-    }
-  }
-
-  /* Feedback of the total number of devices. */
-  if (0u == devices)
-  {
-    printf("No device found.\n\r");
-  }
-  else
-  {
-    printf("Total found devices: %d\n\r", devices);
-  }
-
-  return devices;
-}
 
 
 
-//static int bq2589x_read(uint16_t Reg, uint8_t *pBuffer)
-//{
-//  //HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-//  HAL_StatusTypeDef status = HAL_OK;
-//  //uint8_t value = 0x0;
-//  //status = HAL_I2C_Mem_Read(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, &value, 1, 100);
-//  status = HAL_I2C_Mem_Read(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, pBuffer, 1, 100);
-//  /* Check the communication status */
-//  if (status != HAL_OK)
-//  {
-//    /* Re-Initiaize the BUS */
-//    //I2C1_Error();
-//  }
-//  return status;
-//}
 
-
-//static int bq2589x_write(uint16_t Reg, uint8_t val)
-//{//if(HAL_I2C_IsDeviceReady(BMP280_I2C_handler,BMP280_IC2ADDRESS, 10, 100)==HAL_OK)
-//  HAL_StatusTypeDef status = HAL_OK;
-//  //if(HAL_I2C_IsDeviceReady(&hi2c1, (BQ25892_ADDR), 1,100u) == HAL_OK)
-//  {
-//    status = HAL_I2C_Mem_Write(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, &val, 1, 100);
-//  }
-
-//	/* Check the communication status */
-//  if (status != HAL_OK)
-//  {
-//    /* Re-Initiaize the BUS */
-//    //I2C1_Error();
-//  }
-//  return status;
-//}
 
 
 /* USER CODE END 4 */
@@ -299,13 +217,13 @@ uint16_t i2c_scanner(void)
   * @brief  This function is executed in case of error occurrence.
   * @retval None
   */
-void Error_Handler(void)
-{
-  /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
+// void Error_Handler(void)
+// {
+//   /* USER CODE BEGIN Error_Handler_Debug */
+//    User can add his own implementation to report the HAL error return state 
 
-  /* USER CODE END Error_Handler_Debug */
-}
+//   /* USER CODE END Error_Handler_Debug */
+// }
 
 #ifdef  USE_FULL_ASSERT
 /**

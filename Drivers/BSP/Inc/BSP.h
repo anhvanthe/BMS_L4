@@ -4,8 +4,10 @@
  * 
  * TuongPV <phamtuongbk999@outlook.com>
 */
+#include "stm32l4xx_hal.h"
 
 #define I2C_BUFFERSIZE             32           // # of bytes for Tx & Rx buffers
+#define BUFFERSIZE 32
 
 #define LED_R_Pin GPIO_PIN_2
 #define LED_R_GPIO_Port GPIOB
@@ -28,10 +30,21 @@
 #define I2C1_SDA_Pin GPIO_PIN_7
 #define I2C1_SDA_GPIO_Port GPIOB
 
-static void MX_GPIO_Init(void);
-static void MX_I2C1_Init(void);
-static void MX_I2C2_Init(void);
-static void MX_USART2_UART_Init(void);
-static void MX_TIM1_Init(void);
 
+#ifdef __GNUC__
+/* With GCC, small printf (option LD Linker->Libraries->Small printf
+   set to 'Yes') calls __io_putchar() */
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
+
+void Error_Handler(void);
+void MX_GPIO_Init(void);
+void MX_I2C1_Init(void);
+void MX_I2C2_Init(void);
+void MX_USART2_UART_Init(void);
+void MX_TIM1_Init(void);
+
+uint16_t i2c_scanner(void);
 

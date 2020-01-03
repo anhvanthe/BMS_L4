@@ -1,27 +1,43 @@
 /* 
- * File: "BSP.h"
+ * File: "BSP.c"
  * Desc: 
  * 
  * TuongPV <phamtuongbk999@outlook.com>
 */
 
-#ifndef __BSP_H_
-#define __BSP_H_
+
+// #ifdef __cplusplus
+//  extern "C" {
+// #endif 
+
+
+#include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
 #include "stm32l4xx_hal.h"
 #include "BSP.h"
 
-static I2C_HandleTypeDef hi2c1;
-static I2C_HandleTypeDef hi2c2;
-static TIM_HandleTypeDef htim1;
-static UART_HandleTypeDef huart2;
+extern UART_HandleTypeDef huart1;
 
+I2C_HandleTypeDef hi2c1;
+I2C_HandleTypeDef hi2c2;
+TIM_HandleTypeDef htim1;
+UART_HandleTypeDef huart2;
+
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+
+  /* USER CODE END Error_Handler_Debug */
+}
 
 /**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
   */
-static void MX_GPIO_Init(void)
+void MX_GPIO_Init(void)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
 
@@ -59,7 +75,7 @@ static void MX_GPIO_Init(void)
   * @param None
   * @retval None
   */
-static void MX_I2C1_Init(void)
+void MX_I2C1_Init(void)
 {
 
   /* USER CODE BEGIN I2C1_Init 0 */
@@ -105,7 +121,7 @@ static void MX_I2C1_Init(void)
   * @param None
   * @retval None
   */
-static void MX_I2C2_Init(void)
+void MX_I2C2_Init(void)
 {
 
   /* USER CODE BEGIN I2C2_Init 0 */
@@ -151,7 +167,7 @@ static void MX_I2C2_Init(void)
   * @param None
   * @retval None
   */
-static void MX_USART2_UART_Init(void)
+void MX_USART2_UART_Init(void)
 {
 
   /* USER CODE BEGIN USART2_Init 0 */
@@ -187,7 +203,7 @@ static void MX_USART2_UART_Init(void)
   * @param None
   * @retval None
   */
-static void MX_TIM1_Init(void)
+void MX_TIM1_Init(void)
 {
 
   /* USER CODE BEGIN TIM1_Init 0 */
@@ -229,4 +245,56 @@ static void MX_TIM1_Init(void)
 
 }
 
-#endif /* __BSP_H_ */
+/**
+  * @brief  Retargets the C library printf function to the USART.
+  * @param  None
+  * @retval None
+  */
+PUTCHAR_PROTOTYPE
+{
+  /* Place your implementation of fputc here */
+  /* e.g. write a character to the USART1 and Loop until the end of transmission */
+  HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, 0xFFFF);
+  return ch;
+}
+
+
+/**
+  * @brief  Scan I2C's devices in bus
+  * @param  None
+  * @retval Number of I2C's device
+  */
+uint16_t i2c_scanner(void)
+{
+  uint8_t i2c_addr = 0;
+  
+  uint8_t i = 0;
+  uint8_t devices = 0;
+  printf("\r\nStart scanning.........\n\r");
+
+  for (i = 1; i < 127; i++)
+  {
+    i2c_addr = i << 1;
+    if (HAL_OK == HAL_I2C_IsDeviceReady(&hi2c1, i2c_addr, 1,100u) )
+    {
+     //printDebug("Device found: ....\n\r");
+      printf("Device found: 0x%02X\n\r", i2c_addr);
+     //printDebug(&i2c_addr);
+      devices++;
+    }
+  }
+
+  /* Feedback of the total number of devices. */
+  if (0u == devices)
+  {
+    printf("No device found.\n\r");
+  }
+  else
+  {
+    printf("Total found devices: %d\n\r", devices);
+  }
+
+  return devices;
+}
+
+
