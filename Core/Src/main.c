@@ -5,23 +5,14 @@
 #include "bq2589x.h"
 #include "bq27542.h"
 
-//HAL_StatusTypeDef check = HAL_OK;
-
-// I2C_HandleTypeDef hi2c1;
-// I2C_HandleTypeDef hi2c2;
-
-
 
 uint8_t dummy = 0;
 uint16_t t=0;
 uint16_t batVol=0;
 uint16_t batTemp=0;
-//uint16_t dev_count=0;
-
 
 void SystemClock_Config(void);
 
-// A simple atoi() function 
 uint16_t myAtoi(char* str);
 
 void LED_BLink(void);
@@ -42,7 +33,6 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM1_Init();
 
-  //HAL_TIM_Base_Start_IT(&htim1);
 
   // Turn on Green LED to indicate
   HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, GPIO_PIN_SET);
@@ -59,18 +49,9 @@ int main(void)
   while (1)
   {
     LED_BLink();
-    //i2c_scanner();
-
-    /* BQ27542-G1
-    Addr 7 bit: 0x55
-    Addr 8 bit 0xAA (Write) and 0xAB (Read)
-    */
-
     
     if(i2c_scanner() != 0)
     {
-      //bq2589x_write(BQ25892_REG_07, 0x8D);
-      //bq2589x_write(BQ25892_REG_03, 0x3A);
 			bq2589x_write(BQ2589X_REG_CFG2, 0x3A);
 			bq2589x_write(BQ2589X_REG_TIMER, 0x8D);
 			

@@ -37,23 +37,6 @@ void BQ27542_read(uint8_t cmd, uint16_t bytes)
 
 }
 
-
-// uint16_t bq2589x_read(uint16_t Reg, uint8_t *pBuffer)
-// {
-// HAL_StatusTypeDef status = HAL_OK;
-// //uint8_t value = 0x0;
-// //status = HAL_I2C_Mem_Read(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, &value, 1, 100);
-// status = HAL_I2C_Mem_Read(&hi2c1, (BQ25892_ADDR<<1), (uint16_t)Reg, 1, pBuffer, 1, 100);
-// /* Check the communication status */
-// if (status != HAL_OK)
-// {
-//   /* Re-Initiaize the BUS */
-//   //I2C1_Error();
-// }
-// return status;
-// }
-
-
 void BQ27542_cmdWrite(uint8_t cmd, uint8_t data)
 {
   uint8_t tx[2];
