@@ -1,0 +1,692 @@
+Added Component: Designator=C14(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C24(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C41(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C42(C0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_0.1uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_104_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0603B104K500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=C43(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C44(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C45(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C46(C0402)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_47nF_0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "47nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_47nF_0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R71C473KA01D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.0mm x 0.5mm x 0.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=C47(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C48(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C49(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_10uF_0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TMK212BBJ106KG-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.035"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "2.0mm x 1.25mm x 1.25mm"; VariantName = "[No Variations]"
+Added Component: Designator=C52(C0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_4.7uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "4.7uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_4.7uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samsung Electro-Mechanics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "CL10A475KQ8NNNC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.6mm x 0.8mm x 0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=C53(C0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_0.1uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_104_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0603B104K500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=C54(C0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_0.1uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_104_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0603B104K500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=C55(C0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_0.1uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_104_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0603B104K500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=C56(C0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_0.1uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_104_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0603B104K500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=C57(C0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "CAP_0.1uF_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Capacitance"; Value = "0.1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lumi PART"; Value = "CAP_104_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "0603B104K500CT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating voltage"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=J3(CON4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=L5(SRP5020TA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "SRP5020TA-2R2M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Current"; Value = "4.2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "2.2uH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "SRP5020TA-2R2M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Bourns"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "5.7X5.2X1.8MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "SRP5020TA-2R2M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "5.7X5.2X1.8MM"; VariantName = "[No Variations]"
+Added Component: Designator=R16(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R17(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R18(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X103 JTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R19(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X103 JTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R20(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X103 JTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R21(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_100R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_100R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0603FR-07100RL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "100R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R22(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X103 JTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R23(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R24(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R25(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R26(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R28(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X103 JTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R29(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_10K_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X103 JTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R31(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R32(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_0R_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Walsin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "WR06X000 PTL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "0R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R34(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_49R9_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_49R9_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0603FR-0749R9L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "49R9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=R35(R0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_49R9_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_49R9_0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0603FR-0749R9L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "0.1W, 1/10W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "49R9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "1.60mm x 0.80mm x 0.45mm"; VariantName = "[No Variations]"
+Added Component: Designator=RS1(R2512L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "RES_1mR_2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LUMI PART"; Value = "RES_1mR_2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Device Package"; Value = "2512"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PA2512FKF7W0R001E"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power (Watts)"; Value = "2W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance (Ohms)"; Value = "10mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Size / Dimension"; Value = "6.3mm x 3.2mm x 0.6mm"; VariantName = "[No Variations]"
+Added Component: Designator=TP1(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "NO BOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimension"; Value = "1mm*1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "LUMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2016/07/01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "LUMIVN"; VariantName = "[No Variations]"
+Added Component: Designator=TP2(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "NO BOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimension"; Value = "1mm*1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "LUMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2016/07/01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "LUMIVN"; VariantName = "[No Variations]"
+Added Component: Designator=TP9(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "NO BOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimension"; Value = "1mm*1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "LUMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2016/07/01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "LUMIVN"; VariantName = "[No Variations]"
+Added Component: Designator=TP12(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "NO BOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimension"; Value = "1mm*1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "LUMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2016/07/01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "LUMIVN"; VariantName = "[No Variations]"
+Added Component: Designator=TP15(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "NO BOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimension"; Value = "1mm*1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "LUMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2016/07/01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "LUMIVN"; VariantName = "[No Variations]"
+Added Component: Designator=TP16(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "NO BOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimension"; Value = "1mm*1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "LUMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2016/07/01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "LUMIVN"; VariantName = "[No Variations]"
+Added Component: Designator=TP?(TESTPOINT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Alias"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "NO BOM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dimension"; Value = "1mm*1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacture"; Value = "LUMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "TestPoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "2016/07/01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "LUMIVN"; VariantName = "[No Variations]"
+Added Component: Designator=U6(QFN24-4x4x0.8-0.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "http://www.ti.com/lit/pdf/sluubb8?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/lit/pdf/sluubb8?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "http://www.ti.com/lit/ds/symlink/bq25890.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/lit/ds/symlink/bq25890.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ25892&&fileType=pdf&src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ25892&&fileType=pdf&src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "http://www.ti.com/lit/ds/symlink/bq25892.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "http://www.ti.com/lit/ds/symlink/bq25892.pdf?src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ25892&amp;&amp;fileType=pdf&src-supplier=Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ25892&amp;&amp;fileType=pdf&src-supplier=Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6Description"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ25892&&fileType=pdf&src-supplier=Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ25892&&fileType=pdf&src-supplier=Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fault Protection"; Value = "Over Current,Over Temperature"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C,USB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BQ25892RTWT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Charge Current"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "14V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Cells"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = "4.6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1 = 4.14000, 10 = 3.72100, 100 = 2.89250 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "460"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-41131-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=U7(BQ27542DRZR-G1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacity"; Value = "16000mAh"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/24097/slusal6c-261693-24097200.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/24097/slusal6c-261693-24097200.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/6613/bq27541-g1-6613718.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/6613/bq27541-g1-6613718.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/6613/bq27541-g1-6613717.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/6613/bq27541-g1-6613717.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/28425/bq27541-g1-28425989.pdf?src-supplier=Avnet+Europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/28425/bq27541-g1-28425989.pdf?src-supplier=Avnet+Europe"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "http://www.ti.com/lit/pdf/sluub65?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "http://www.ti.com/lit/pdf/sluub65?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6Description"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ27542-G1&amp;&amp;fileType=pdf&src-supplier=Avnet+Asia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ27542-G1&amp;&amp;fileType=pdf&src-supplier=Avnet+Asia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink7Description"; Value = "http://www.ti.com/lit/gpn/bq27542-g1?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink7URL"; Value = "http://www.ti.com/lit/gpn/bq27542-g1?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink8Description"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ27542-G1&&fileType=pdf&src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink8URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=BQ27542-G1&&fileType=pdf&src-supplier=Avnet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink9Description"; Value = "http://www.ti.com/lit/ds/symlink/bq27542-g1.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink9URL"; Value = "http://www.ti.com/lit/ds/symlink/bq27542-g1.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BQ27541DRZR-G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "2.7V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "3000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1 = 3.57000, 10 = 3.20900, 100 = 2.49430, 500 = 2.15724, 1000 = 1.79320 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 2"; Value = "1 = 2.69000, 10 = 2.41700, 100 = 1.87880, 500 = 1.62492, 1000 = 1.35072 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "9527"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 2"; Value = "16878"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "296-34998-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "296-44346-1-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BQ_BST Pin=C46-1
+Added Pin To Net: NetName=BQ_BST Pin=U6-21
+Added Net: Name=BQ_BST
+Added Pin To Net: NetName=BQ_I2C_SCL Pin=R20-2
+Added Pin To Net: NetName=BQ_I2C_SCL Pin=R24-1
+Added Pin To Net: NetName=BQ_I2C_SCL Pin=U6-5
+Added Net: Name=BQ_I2C_SCL
+Added Pin To Net: NetName=BQ_I2C_SDA Pin=R22-2
+Added Pin To Net: NetName=BQ_I2C_SDA Pin=R23-1
+Added Pin To Net: NetName=BQ_I2C_SDA Pin=U6-6
+Added Net: Name=BQ_I2C_SDA
+Added Pin To Net: NetName=BQ_ILIM Pin=R21-1
+Added Pin To Net: NetName=BQ_ILIM Pin=U6-10
+Added Net: Name=BQ_ILIM
+Added Pin To Net: NetName=BQ_INT_L Pin=R19-2
+Added Pin To Net: NetName=BQ_INT_L Pin=R25-1
+Added Pin To Net: NetName=BQ_INT_L Pin=U6-7
+Added Net: Name=BQ_INT_L
+Added Pin To Net: NetName=BQ_INT Pin=R25-2
+Added Net: Name=BQ_INT
+Added Pin To Net: NetName=BQ_nCE Pin=R26-2
+Added Pin To Net: NetName=BQ_nCE Pin=U6-9
+Added Net: Name=BQ_nCE
+Added Pin To Net: NetName=BQ_nPG Pin=TP1-1
+Added Pin To Net: NetName=BQ_nPG Pin=U6-3
+Added Net: Name=BQ_nPG
+Added Pin To Net: NetName=BQ_OTG Pin=R18-2
+Added Pin To Net: NetName=BQ_OTG Pin=TP?-1
+Added Pin To Net: NetName=BQ_OTG Pin=U6-8
+Added Net: Name=BQ_OTG
+Added Pin To Net: NetName=BQ_PMID Pin=C43-2
+Added Pin To Net: NetName=BQ_PMID Pin=U6-23
+Added Net: Name=BQ_PMID
+Added Pin To Net: NetName=BQ_PSEL Pin=R16-2
+Added Pin To Net: NetName=BQ_PSEL Pin=R17-1
+Added Pin To Net: NetName=BQ_PSEL Pin=U6-2
+Added Net: Name=BQ_PSEL
+Added Pin To Net: NetName=BQ_QON Pin=TP12-1
+Added Pin To Net: NetName=BQ_QON Pin=U6-12
+Added Net: Name=BQ_QON
+Added Pin To Net: NetName=BQ_STAT Pin=TP2-1
+Added Pin To Net: NetName=BQ_STAT Pin=U6-4
+Added Net: Name=BQ_STAT
+Added Pin To Net: NetName=BQ_SW Pin=C46-2
+Added Pin To Net: NetName=BQ_SW Pin=L5-1
+Added Pin To Net: NetName=BQ_SW Pin=U6-19
+Added Pin To Net: NetName=BQ_SW Pin=U6-20
+Added Net: Name=BQ_SW
+Added Pin To Net: NetName=BQ_TS Pin=R28-2
+Added Pin To Net: NetName=BQ_TS Pin=R29-1
+Added Pin To Net: NetName=BQ_TS Pin=U6-11
+Added Net: Name=BQ_TS
+Added Pin To Net: NetName=G_BAT Pin=C52-1
+Added Pin To Net: NetName=G_BAT Pin=C57-1
+Added Pin To Net: NetName=G_BAT Pin=J3-3
+Added Pin To Net: NetName=G_BAT Pin=R35-1
+Added Pin To Net: NetName=G_BAT Pin=RS1-2
+Added Pin To Net: NetName=G_BAT Pin=U7-6
+Added Pin To Net: NetName=G_BAT Pin=U7-13
+Added Net: Name=G_BAT
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C24-1
+Added Pin To Net: NetName=GND Pin=C41-1
+Added Pin To Net: NetName=GND Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C43-1
+Added Pin To Net: NetName=GND Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C45-1
+Added Pin To Net: NetName=GND Pin=C47-1
+Added Pin To Net: NetName=GND Pin=C48-1
+Added Pin To Net: NetName=GND Pin=C49-1
+Added Pin To Net: NetName=GND Pin=R17-2
+Added Pin To Net: NetName=GND Pin=R21-2
+Added Pin To Net: NetName=GND Pin=R26-1
+Added Pin To Net: NetName=GND Pin=R29-2
+Added Pin To Net: NetName=GND Pin=R34-1
+Added Pin To Net: NetName=GND Pin=RS1-1
+Added Pin To Net: NetName=GND Pin=U6-17
+Added Pin To Net: NetName=GND Pin=U6-18
+Added Pin To Net: NetName=GND Pin=U6-25
+Added Pin To Net: NetName=GND Pin=U6-25
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC54_1 Pin=C54-1
+Added Pin To Net: NetName=NetC54_1 Pin=C56-1
+Added Pin To Net: NetName=NetC54_1 Pin=R35-2
+Added Pin To Net: NetName=NetC54_1 Pin=U7-7
+Added Net: Name=NetC54_1
+Added Pin To Net: NetName=NetC54_2 Pin=C54-2
+Added Pin To Net: NetName=NetC54_2 Pin=C55-2
+Added Pin To Net: NetName=NetC54_2 Pin=R34-2
+Added Pin To Net: NetName=NetC54_2 Pin=U7-8
+Added Net: Name=NetC54_2
+Added Pin To Net: NetName=NetC55_1 Pin=C55-1
+Added Pin To Net: NetName=NetC55_1 Pin=C56-2
+Added Net: Name=NetC55_1
+Added Pin To Net: NetName=NetR31_2 Pin=R31-2
+Added Pin To Net: NetName=NetR31_2 Pin=U7-11
+Added Net: Name=NetR31_2
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Added Pin To Net: NetName=NetR32_2 Pin=U7-10
+Added Net: Name=NetR32_2
+Added Pin To Net: NetName=NetTP15_1 Pin=TP15-1
+Added Pin To Net: NetName=NetTP15_1 Pin=U7-12
+Added Net: Name=NetTP15_1
+Added Pin To Net: NetName=NetTP16_1 Pin=TP16-1
+Added Pin To Net: NetName=NetTP16_1 Pin=U7-1
+Added Net: Name=NetTP16_1
+Added Pin To Net: NetName=REG25 Pin=C52-2
+Added Pin To Net: NetName=REG25 Pin=C53-1
+Added Pin To Net: NetName=REG25 Pin=C57-2
+Added Pin To Net: NetName=REG25 Pin=J3-1
+Added Pin To Net: NetName=REG25 Pin=U7-2
+Added Pin To Net: NetName=REG25 Pin=U7-5
+Added Net: Name=REG25
+Added Pin To Net: NetName=REGN Pin=C47-2
+Added Pin To Net: NetName=REGN Pin=R28-1
+Added Pin To Net: NetName=REGN Pin=U6-22
+Added Net: Name=REGN
+Added Pin To Net: NetName=SS_I2C_SCL Pin=R24-2
+Added Pin To Net: NetName=SS_I2C_SCL Pin=R31-1
+Added Net: Name=SS_I2C_SCL
+Added Pin To Net: NetName=SS_I2C_SDA Pin=R23-2
+Added Pin To Net: NetName=SS_I2C_SDA Pin=R32-1
+Added Net: Name=SS_I2C_SDA
+Added Pin To Net: NetName=TS Pin=C53-2
+Added Pin To Net: NetName=TS Pin=J3-2
+Added Pin To Net: NetName=TS Pin=U7-9
+Added Net: Name=TS
+Added Pin To Net: NetName=V_BAT Pin=C48-2
+Added Pin To Net: NetName=V_BAT Pin=C49-2
+Added Pin To Net: NetName=V_BAT Pin=J3-4
+Added Pin To Net: NetName=V_BAT Pin=TP9-1
+Added Pin To Net: NetName=V_BAT Pin=U6-13
+Added Pin To Net: NetName=V_BAT Pin=U6-14
+Added Pin To Net: NetName=V_BAT Pin=U7-3
+Added Pin To Net: NetName=V_BAT Pin=U7-4
+Added Net: Name=V_BAT
+Added Pin To Net: NetName=V_SYS Pin=C44-2
+Added Pin To Net: NetName=V_SYS Pin=C45-2
+Added Pin To Net: NetName=V_SYS Pin=L5-2
+Added Pin To Net: NetName=V_SYS Pin=U6-15
+Added Pin To Net: NetName=V_SYS Pin=U6-16
+Added Net: Name=V_SYS
+Added Pin To Net: NetName=VCC_5V Pin=C14-2
+Added Pin To Net: NetName=VCC_5V Pin=C24-2
+Added Pin To Net: NetName=VCC_5V Pin=C41-2
+Added Pin To Net: NetName=VCC_5V Pin=C42-2
+Added Pin To Net: NetName=VCC_5V Pin=U6-1
+Added Net: Name=VCC_5V
+Added Pin To Net: NetName=VDD_EXT3P3 Pin=R16-1
+Added Pin To Net: NetName=VDD_EXT3P3 Pin=R18-1
+Added Pin To Net: NetName=VDD_EXT3P3 Pin=R19-1
+Added Pin To Net: NetName=VDD_EXT3P3 Pin=R20-1
+Added Pin To Net: NetName=VDD_EXT3P3 Pin=R22-1
+Added Net: Name=VDD_EXT3P3
+Added Class: Name=[2]-BATTERY
+Added Room: Name=[2]-BATTERY
