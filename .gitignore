@@ -54,8 +54,13 @@
 *.uvgui.*
 *.uvguix.*
 
+#Altium
+*.SchDocPreview
+*.PcbDocPreview
+
 # Folder
 MDK-ARM/BSM_L4_I2C
 MDK-ARM
-
+Project\ Logs\ for\ BMS/
+PCB/__Previews
 # End of https://www.gitignore.io/api/keil
