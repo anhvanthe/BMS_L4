@@ -45,7 +45,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -90,16 +90,16 @@ GenerateClassCluster=0
 DocumentUniqueId=IBXOIFXE
 
 [Parameter1]
-Name=SCH_REV
-Value=V1
+Name=Engineer
+Value=TuongPV
 
 [Parameter2]
 Name=Project
 Value=BMS
 
 [Parameter3]
-Name=Engineer
-Value=TuongPV
+Name=SCH_REV
+Value=V1
 
 [Configuration1]
 Name=Sources
