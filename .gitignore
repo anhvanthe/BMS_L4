@@ -56,5 +56,6 @@
 
 # Folder
 MDK-ARM/BSM_L4_I2C
-
+EWARM/BSM_L4_I2C
+EWARM/settings
 # End of https://www.gitignore.io/api/keil
