@@ -44,7 +44,7 @@ void MX_GPIO_Init(void);
 void MX_I2C1_Init(void);
 void MX_I2C2_Init(void);
 void MX_USART2_UART_Init(void);
-void MX_TIM1_Init(void);
+void MX_TIM2_Init(void);
 
 uint16_t i2c_scanner(void);
 

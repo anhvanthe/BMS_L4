@@ -31,7 +31,7 @@ int main(void)
   MX_I2C1_Init();
   MX_I2C2_Init();
   MX_USART2_UART_Init();
-  MX_TIM1_Init();
+  MX_TIM2_Init();
 
 
   // Turn on Green LED to indicate
@@ -169,12 +169,13 @@ void LED_BLink(void)
     HAL_GPIO_TogglePin(LED_R_GPIO_Port, LED_R_Pin);
 
     HAL_Delay(200);
-    HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
-
-    HAL_Delay(200);
 }
 
-
+/* USER CODE BEGIN 4 */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  HAL_GPIO_TogglePin(LED_G_GPIO_Port, LED_G_Pin);
+}
 
 
 
